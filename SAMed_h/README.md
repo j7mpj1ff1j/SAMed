@@ -35,3 +35,5 @@ Check the results in `<Your output path>`, and the training process will consume
 - SAMed_h needs more training iterations. Therefore, we set the max epoch to 400 and early stop to 300 for better performance. 
 - Too large learning rate will cause the training instability of SAMed_h. Therefore, we increase the exponent of exponential decay from 0.9 to 7, which can greatly reduce the training instability.
 - For faster training speed and less memory consumption, SAMed_h adopts auto mixed-precision, tensor-float 32 and `compile` technology in pytorch 2.0. Therefore, pytorch2+ is necessary for training this model.
+
+<!-- Auto-update: 2025-10-14T04:29:31.088517 -->
